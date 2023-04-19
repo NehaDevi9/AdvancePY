@@ -1,0 +1,33 @@
+1.What is the purpose of Python's OOP?
+Ans. Object-oriented programming (OOP) is a way of thinking about and organizing code for maximum reusability. With this type of programming, a program comprises objects that can interact with the user, other objects, or other programs. This makes programs more efficient and easier to understand.
+
+Q2. Where does an inheritance search look for an attribute?
+Ans. The whole point of a namespace tool like the class statement is to support name inheritance. In Python, inheritance happens when an object is qualified, and involves searching an attribute definition tree (one or more namespaces). Every time you use an expression of the form object.
+
+
+Q3. How do you distinguish between a class object and an instance object?
+Ans. A class is a type of blueprint that we can use to make objects. A concrete 'thing' that we constructed using a certain class is an object, which is an instance of a class. So, while the terms 'object' and 'instance' are interchangeable, the term 'instance' refers to an object's relationship to its class.
+
+Q4. What makes the first argument in a class’s method function special? 
+
+Q5. What is the purpose of the __init__ method?
+Ans. The __init__ method lets the class initialize the object’s attributes and serves no other purpose.
+
+Q6. What is the process for creating a class instance?
+Ans. To create instances of a class, you call the class using class name and pass in whatever arguments its __init__ method accepts.
+
+Q7. What is the process for creating a class?
+Ans. Enter the class name. (Optional) To enter a short description, grade level, or class time, tap Section and enter the details.
+
+Q8. How would you define the superclasses of a class?
+Ans. We can define a class by using class keyword. 
+     Syntax:
+          class className:
+            ''' documenttation string '''
+          variables:instance variables,static and local variables
+          methods: instance methods,static methods,class methods
+     Example:
+1) class Student: 
+2) ''''' This is student class with required data''' 
+3) print(Student.__doc__) 
+4) help(Student) 
